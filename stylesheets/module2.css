@@ -37,15 +37,8 @@ div #container3{background-color: #c6c5c8;
 	border-width: 2px;
 }
 
-@media(min-width: 1200px){
-#container1 {width: 32%;
-}
-#container2 {width: 32%;
-}
-#container3 {width: 32%;
-}
-} 
-@media (min-width: 992px) and (max-width: 1199px){
+
+@media (min-width: 992px) {
 	 	 	 
 	 	 	 #container1 {width: 32%;
 	 	 	 }
@@ -56,6 +49,27 @@ div #container3{background-color: #c6c5c8;
 	 	 	 
 	 	 	 }	 
 
+@media (min-width: 768px) and (max-width: 991px){
+	 	 	 
+	 	 	 #container1 {width: 48%;
+	 	 	 }
+	 	 	 #container2 {width: 48%;
+	 	 	 }
+	 	 	 #container3 {width: 96%;
+	 	 	 }
+	 	 	 
+	 	 	 }	 
+
+@media (max-width: : 767px) {
+	 	 	 
+	 	 	 #container1 {width: 96%;
+	 	 	 }
+	 	 	 #container2 {width: 96%;
+	 	 	 }
+	 	 	 #container3 {width: 96%;
+	 	 	 }
+	 	 	 
+	 	 	 }	 
 h4{position: absolute;
 	clear: left;
 	right: 0px;
